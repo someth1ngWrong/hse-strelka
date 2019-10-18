@@ -1,0 +1,198 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700&display=swap');
+
+:root {
+  --main-blue: #006AFF;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* секция HERO */
+
+.hero {
+background-image: url(../img/bg.png);
+background-size: cover;
+background-position: center;
+height: 85vh;
+text-align: center;
+position: relative;
+}
+
+.hero nav {
+  background: #006AFF;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+.hero a {
+  color: #fff;
+}
+
+.hero nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.hero nav ul li:last-child {
+  margin-left: 40px;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 130px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  letter-spacing: 1px;
+}
+
+.hero .btn {
+  background: var(--main-blue);
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+
+/* секация EDU */
+
+.edu {
+  height: 85vh;
+  display: flex;
+
+}
+
+.post,
+.res {
+  height: 100%;
+  background-size: cover;
+  width: 50%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.post {
+  background-image: url(../img/post.jpg);
+}
+
+.res {
+  background-image: url(../img/res.jpg);
+}
+
+.post a {
+  background-color: #fff;
+  color: red;
+  padding:50px 25px;
+  font-size: 40px;
+}
+
+.res a {
+  background-color: red;
+  color: #fff;
+  padding: 25px;
+  font-size: 40px;
+}
+
+.post span {
+  display: block;
+}
+
+/* секция с книгами */
+
+.books {
+  height: 85vh;
+  background-color: var(--main-blue);
+}
+
+.books ul {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+
+.books ul li img {
+  width: 220px;
+  margin: 0 10px;
+  transition: transform 300ms ease;
+}
+
+.books ul li img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.books .strelka-logo {
+    margin-top: 36px;
+    display: inline-block;
+    width: 384px;
+    height: 136px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 -251px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
